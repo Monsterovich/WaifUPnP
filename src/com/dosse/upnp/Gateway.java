@@ -199,7 +199,7 @@ class Gateway {
         params.put("NewExternalPort", "" + port);
         params.put("NewInternalPort", "" + port);
         params.put("NewEnabled", "1");
-        params.put("NewPortMappingDescription", "WaifUPnP");
+        params.put("NewPortMappingDescription", "Lanemu UPnP");
         params.put("NewLeaseDuration", "0");
         try {
             Map<String, String> r = command("AddPortMapping", params);
